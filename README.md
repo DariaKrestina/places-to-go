@@ -17,40 +17,36 @@ Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/u
 
 ## API and Data Sample
 
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
+Below is data sample from Airtable Places API.
 
 ```json
 {
     "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "receMTY6DLQ6qYs2c",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "name": "Antelope Canyon",
+                "country": "USA",
+                "currency": "USD",
+                "languages": "English(US)",
+                "description": "Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Page, Arizona. It includes two separate, scenic slot canyon section...",
+                "thingsToDo": "1. Horseshoe Bend\n2. Navajo Village Heritage Center\n3. Glen Canyon Dam Overlook\n4. Waterholes Canyon\n5. Lower Antelope Canyon\n6. Glen Canyon National ...",
+                "image": "https://i.imgur.com/Ym34zXM.jpg"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-08-19T17:35:44.000Z"
         },
         {
-            "id": "rec3oYZ5Tp0AIDsKe",
-            "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "id": "recEDXQO8RevN5fA8",
+            "fields": {},
+            "createdTime": "2021-08-19T17:35:44.000Z"
         },
         {
-            "id": "recA34tOaoE1IVeC1",
-            "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "id": "reccCzkvlzfUsqr3D",
+            "fields": {},
+            "createdTime": "2021-08-19T17:35:44.000Z"
         }
     ],
-    "offset": "recA34tOaoE1IVeC1"
+    "offset": "reccCzkvlzfUsqr3D"
 }
 ```
 
