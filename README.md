@@ -1,12 +1,10 @@
 # Project Overview
 
-## Project Name
-
-The name of your project.
+## Places to go
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
+Places to go is an Airtable and React build app where user is able to 
 
 ## Wireframes
 
