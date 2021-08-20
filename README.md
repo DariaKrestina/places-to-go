@@ -11,8 +11,11 @@ Places to go is an Airtable and React build app where user is able to view , add
 ## Wireframes
 
 [Index(home) page wireframe](https://whimsical.com/places-to-go-wireframes-index-page-Nyq2t9Um9q34gkGe7a1UFB)
+
 [Show page wireframe](https://whimsical.com/places-to-go-wireframes-show-page-6UdyDQj11g4XbEhb6hZpQZ)
+
 [Add page wireframe](https://whimsical.com/places-to-go-wireframes-add-page-CqGKDv2cZtXY8WbsPPaNDB)
+
 [Edit page wireframe](https://whimsical.com/places-to-go-wireframes-edit-page-SAbjG6sWs9YSkB7R6wSBvU)
 
 ## Component Hierarchy
