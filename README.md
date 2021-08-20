@@ -116,17 +116,17 @@ Below is data sample from Airtable Places API.
 ## SWOT Analysis
 
 ### Strengths:
-The app puts user in cotrol of data on the web page by being able to add and edit tourist attractions.
+The app puts user in control of data on the web page by being able to add and edit tourist attractions.
 Responsive and clean design makes the app accessible and easy to navigate using a wide range of devices.
 
-
 ### Weaknesses:
-
+When user adding a new tourist attraction an image has to be ONLY in the URL format(e.g. https://imgur.com/gallery/kFOiT.jpg).
+To complete the workflow, user has to use a third-party tool to convert their image to supported URL format.
 
 ### Opportunities:
-There are exciting opportunities to implement search bar for a specific tourist attraction, delete button to delete any tourist place(data) from Airtable api, use local storage to save user favorites.
+There are exciting opportunities to implement search bar in order to search for a specific tourist attraction, delete button to delete any tourist place(data) from Airtable api, use local storage to save user favorites.
 
 ### Threats:
-If user created a new place by mistake and does not want to keep it there is no way to delete it at this point only edit.
-I'm planning to implement a DELETE request(as postMVP) to delete data from the places API by clicking on delete button.
+There is no option to delete data if user wants to(e.g. if user created a tourist place by mistake).
+I'm planning to implement a DELETE request(as postMVP) to delete data from the places API by clicking on a button.
  
