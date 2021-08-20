@@ -6,7 +6,7 @@
 
 ## Project Description
 
-Places to go is an Airtable and React build app where user is able to view , add and edit information about tourist attractions. 
+Places to go is an Airtable and React app where user is able to view , add and edit information about tourist attractions. 
 
 
 ## Wireframes
