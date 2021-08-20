@@ -8,6 +8,7 @@
 
 Places to go is an Airtable and React build app where user is able to view , add and edit information about tourist attractions. 
 
+
 ## Wireframes
 
 [Index(home) page wireframe](https://whimsical.com/places-to-go-wireframes-index-page-Nyq2t9Um9q34gkGe7a1UFB)
@@ -18,9 +19,11 @@ Places to go is an Airtable and React build app where user is able to view , add
 
 [Edit page wireframe](https://whimsical.com/places-to-go-wireframes-edit-page-SAbjG6sWs9YSkB7R6wSBvU)
 
+
 ## Component Hierarchy
 
 [Component Hierarchy](https://whimsical.com/places-to-go-component-hierarchy-6Z22ibMtruURssGpLEqWZd)
+
 
 ## API and Data Sample
 
@@ -57,6 +60,7 @@ Below is data sample from Airtable Places API.
 }
 ```
 
+
 ### MVP/PostMVP 
 
 #### MVP 
@@ -73,6 +77,7 @@ Below is data sample from Airtable Places API.
 - DELETE data from Airtable api
 - Implement search bar for a specific tourist attraction
 - Use an additional media query for tablet
+
 
 ## Project Schedule
 
@@ -113,6 +118,7 @@ Below is data sample from Airtable Places API.
 ### Strengths:
 The app puts user in cotrol of data on the web page by being able to add and edit tourist attractions.
 Responsive and clean design makes the app accessible and easy to navigate using a wide range of devices.
+
 
 ### Weaknesses:
 
