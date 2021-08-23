@@ -1,6 +1,13 @@
+import { Link } from 'react-router-dom'
+
 function Nav() {
+
   return (
-    <h1>Here go links for home and add</h1>
+    <>
+      <h1>Places to go</h1>
+      <Link to='/'>Home - find a logo for mobile version</Link>
+      <Link to='/new'>Add - find a logo for mobile version</Link>
+    </>
   )
 }
 

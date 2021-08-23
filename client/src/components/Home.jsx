@@ -1,6 +1,16 @@
-function Home() {
+import axios from 'axios'
+import { useEffect, useState } from 'react'
+import Place from '../components/Place'
+
+function Home(props) {
+  const { places } = props
   return (
-    <h1>Here goes the list of all places</h1>
+    places.map((place) => (
+    <>
+        <img alt='tourist attraction pic' src={place.fields.image} />
+        <h2>{place.fields.name}, {place.fields.country}</h2>
+    </>
+  ))
   )
 }
 
