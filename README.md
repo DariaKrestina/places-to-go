@@ -2,107 +2,131 @@
 
 ## Project Name
 
-The name of your project.
+### Places to go
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
+Places to go is a React app where user is able to view , add and edit information about tourist attractions. 
+
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+[Index(home) page wireframe](https://whimsical.com/places-to-go-wireframes-index-page-Nyq2t9Um9q34gkGe7a1UFB)
+
+[Show page wireframe](https://whimsical.com/places-to-go-wireframes-show-page-6UdyDQj11g4XbEhb6hZpQZ)
+
+[Add page wireframe](https://whimsical.com/places-to-go-wireframes-add-page-CqGKDv2cZtXY8WbsPPaNDB)
+
+[Edit page wireframe](https://whimsical.com/places-to-go-wireframes-edit-page-SAbjG6sWs9YSkB7R6wSBvU)
+
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+
+[Component Hierarchy](https://whimsical.com/places-to-go-component-hierarchy-6Z22ibMtruURssGpLEqWZd)
+
 
 ## API and Data Sample
 
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
+Below is data sample from Airtable Places API.
 
 ```json
 {
     "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "receMTY6DLQ6qYs2c",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "name": "Antelope Canyon",
+                "country": "USA",
+                "currency": "USD",
+                "languages": "English(US)",
+                "description": "Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Page, Arizona. It includes two separate, scenic slot canyon section...",
+                "thingsToDo": "1. Horseshoe Bend\n2. Navajo Village Heritage Center\n3. Glen Canyon Dam Overlook\n4. Waterholes Canyon\n5. Lower Antelope Canyon\n6. Glen Canyon National ...",
+                "image": "https://i.imgur.com/Ym34zXM.jpg"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-08-19T17:35:44.000Z"
         },
         {
-            "id": "rec3oYZ5Tp0AIDsKe",
-            "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "id": "recEDXQO8RevN5fA8",
+            "fields": {},
+            "createdTime": "2021-08-19T17:35:44.000Z"
         },
         {
-            "id": "recA34tOaoE1IVeC1",
-            "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "id": "reccCzkvlzfUsqr3D",
+            "fields": {},
+            "createdTime": "2021-08-19T17:35:44.000Z"
         }
     ],
-    "offset": "recA34tOaoE1IVeC1"
+    "offset": "reccCzkvlzfUsqr3D"
 }
 ```
 
-### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP 
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Style the webpage using Grid and/or Bootstrap for React
+- Use a media query for desktop(mobile-first)
+- GET, POST and PUT data using Airtable api
+- Link to separate components creating illusion of a multi page app utilizing React Router
+- Render tourist attractions data on the page 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
 - Use local storage to save user favorites
+- DELETE data from Airtable api
+- Implement search bar for a specific tourist attraction
+- Use an additional media query for tablet
+
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
+| Day          | Deliverable                                                               | Status       |
+| ------------ | ------------------------------------------------------------------------- | ------------ |
+| August 19-20 | Wireframes / Component Hierarchy / Timeframes / Project Approval          |  Incomplete  |
+| August 23    | Pseudocode / Application Structure / Actual Code / MVP                    |  Incomplete  |
+| August 24    | Code / CSS Styling / MVP                                                  |  Incomplete  |
+| August 25    | Initial Clickable Model / PostMVP                                         |  Incomplete  |
+| August 26    | CSS Styling / PostMVP                                                     |  Incomplete  |
+| August 27    | Presentations                                                             |  Incomplete  |
 
-|  Day | Deliverable | Status
-|---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+| Component                                                | Priority | Estimated Time | Time Invested | Actual Time |
+| -------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Wireframes / Component Hierarchy / Timeframes            |    H     |      4hrs      |               |             |
+| Create Airtable Places API with tourist attractions data |    H     |      4hrs      |               |             |
+| Pseudocode                                               |    H     |    0.5hrs      |               |             |
+| Create React App / Create separate components            |    H     |    3.5hrs      |               |             |
+| Working with API                                         |    H     |      2hrs      |               |             |
+| Clickable Edit / Add buttons                             |    H     |      2hrs      |               |             |
+| POST request to add new tourist attraction               |    H     |      1hrs      |               |             |
+| PUT request to update existing tourist attraction        |    H     |      1hrs      |               |             |
+| Airtable API fetchData function                          |    H     |      2hrs      |               |             |
+| CSS styling mobile-first                                 |    H     |      4hrs      |               |             |
+| CSS Grid / Bootstrap styling                             |    H     |      3hrs      |               |             |
+| Media Query for Desktop                                  |    H     |      4hrs      |               |             |
+| Media Query for Tablet                                   |    L     |      3hrs      |               |             |
+| MVP check/fixes/tweaks                                   |    H     |      3hrs      |               |             |
+| PostMVP checks/fixes/tweaks                              |    H     |      2hrs      |               |             |
+| Total                                                    |    H     |     39hrs      |               |             |
 
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
 
 ## SWOT Analysis
 
 ### Strengths:
+The app puts user in control of data on the web page by being able to add and edit tourist attractions.
+Responsive and clean design makes the app accessible and easy to navigate using a wide range of devices.
 
 ### Weaknesses:
+When user adding a new tourist attraction an image has to be ONLY in the URL format(e.g. https://imgur.com/gallery/kFOiT.jpg).
+To complete the workflow, user has to use a third-party tool to convert their image to supported URL format.
 
 ### Opportunities:
+There are exciting opportunities to implement search bar in order to search for a specific tourist attraction, delete button to delete any tourist place(data) from Airtable api, use local storage to save user favorites.
 
 ### Threats:
+There is no option to delete data if user wants to(e.g. if user created a tourist place by mistake).
+I'm planning to implement a DELETE request(as postMVP) to delete data from the places API by clicking on a button.
+ 
