@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Place from "./components/Place";
 import Form from "./components/Form";
 import Footer from "./components/Footer";
-import { Link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { baseURL, config } from "./services";
 import axios from "axios";
@@ -26,10 +26,10 @@ function App() {
     <>
       <Nav />
       <Route path="/" exact>
-        <Home places={places}/>
+        <Home places={places} />
       </Route>
       <Route path="/places/:id">
-        <Place />
+        <Place places={places} />
       </Route>
       <Route path="/new">
         <Form />
