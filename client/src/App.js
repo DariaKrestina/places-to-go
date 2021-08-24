@@ -32,10 +32,10 @@ function App() {
         <Place places={places} />
       </Route>
       <Route path="/new">
-        <Form />
+        <Form setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/edit/:id">
-        <Form />
+        <Form places={places} setToggleFetch={setToggleFetch} />
       </Route>
       <Footer />
     </>
