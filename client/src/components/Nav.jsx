@@ -4,7 +4,7 @@ function Nav() {
 
   return (
     <>
-      <h1>Places to go</h1>
+      <Link to='/'><h1>Places to go</h1></Link>
       <Link to='/'>Home</Link>
       <Link to='/new'>Add</Link>
     </>
