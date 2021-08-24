@@ -15,6 +15,7 @@ function Form(props) {
 
   const params = useParams()
   const history = useHistory()
+  let buttonName = ""
   
   useEffect(() => {
     if (params.id && props.places.length > 0) {
@@ -50,8 +51,15 @@ function Form(props) {
     props.setToggleFetch((prevToggleFetch) => !prevToggleFetch)
     history.push("/")
   }
- 
+
+  if (params.id) {
+    buttonName = "Update"
+  } else {
+    buttonName = "Add"
+  }
+
   return (
+    <>
     <form onSubmit={handleSubmit}>
       <label htmlFor="image">Image </label>
       <br />
@@ -133,8 +141,9 @@ function Form(props) {
         required
       />
       <br />
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">{buttonName}</button>
+      </form>
+      </>
   )
 }
 
