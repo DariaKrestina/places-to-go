@@ -1,0 +1,8 @@
+h1 {
+  scroll-behavior: smooth;
+}
+
+nav {
+  border-bottom: #14253d solid 1px;
+  width: 100%;
+}
