@@ -1,5 +1,4 @@
 h1 {
-  scroll-behavior: smooth;
   padding: 2px 0 0 10px;
 }
 
@@ -11,17 +10,18 @@ nav {
 }
 
 nav img {
+  /* Info on manipulating color of png img here: https://codepen.io/taryaoui/pen/EKkcu */
   -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
   filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
   padding: 0 15px 5px 0;
 }
 
 nav h1 {
-  text-align: left;
+  text-align: center;
   font-family: "Bad Script", cursive;
   font-size: 20px;
   font-weight: 800;
-  padding: 10px 0 0 10px;
+  padding: 10px 20px 0 10px;
 }
 
 .nav-images {

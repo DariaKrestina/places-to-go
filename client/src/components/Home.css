@@ -1,0 +1,24 @@
+.place {
+  position: relative;
+  margin: 3%;
+  border-radius: 5%;
+}
+
+.txt-place {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: white;
+  font-size: 25px;
+  width: 80%;
+}
+
+.img-place {
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+main {
+  padding-top: 110px;
+}
