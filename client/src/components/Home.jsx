@@ -6,7 +6,7 @@ function Home(props) {
     places.map((place) => (
       <main>
         <Link to={`/places/${place.id}`}>
-          <img alt="tourist attraction pic" src={place.fields.image} />
+          <img alt="tourist attraction pic" src={place.fields.image} width="100%"/>
           <h2>{place.fields.name}, {place.fields.country}</h2>
         </Link>
     </main>

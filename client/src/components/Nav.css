@@ -1,8 +1,29 @@
 h1 {
   scroll-behavior: smooth;
+  padding: 2px 0 0 10px;
 }
 
 nav {
   border-bottom: #14253d solid 1px;
   width: 100%;
+  position: fixed;
+  background: white;
+}
+
+nav img {
+  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+  filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+  padding: 0 15px 5px 0;
+}
+
+nav h1 {
+  text-align: left;
+  font-family: "Bad Script", cursive;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 0 0 10px;
+}
+
+.nav-images {
+  text-align: center;
 }

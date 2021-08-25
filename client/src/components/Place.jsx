@@ -7,7 +7,7 @@ function Place(props) {
   const place = props.places.find(place => place.id === id)
   return !place ? (<h1>Loading...</h1>) : (
     <article>
-      <img alt="tourist attraction pic" src={place.fields.image} />
+      <img alt="tourist attraction pic" src={place.fields.image} width="100%"/>
       <h1>{place.fields.name}, {place.fields.country}</h1>
       <h3>Things to do</h3>
       <p>{place.fields.thingsToDo}</p>

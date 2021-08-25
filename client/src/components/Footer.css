@@ -1,0 +1,8 @@
+footer {
+  border-top: #14253d solid 1px;
+}
+
+footer a img {
+  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+  filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+}
