@@ -6,8 +6,8 @@ function Nav() {
     <>
       <Link to="/"><h1 id="top">Places to go</h1></Link>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/new">Add</Link>
+        <Link to="/"><img src="https://i.imgur.com/yypAWmK.png" alt="Home"/></Link>
+        <Link to="/new"><img src="https://i.imgur.com/uKjzGW7.png" alt="Add"/></Link>
       </nav>
     </>
   )
