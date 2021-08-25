@@ -2,13 +2,14 @@ function Footer() {
   return (
     <footer>
       <a href="#top">Back to top</a>
-      <a href="mailto:dykrestina@gmail.com">Contact via email</a>
+      <a href="mailto:dykrestina@gmail.com">
+          <img src="https://i.imgur.com/dku2zgp.png" alt="email icon"/>
+      </a>
       <a href="https://www.linkedin.com/in/daria-krestina/" target="_blank" rel="noreferrer">
-          <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="Linkein logo" width="10%" height="auto"/>
+          <img src="https://i.imgur.com/Z7y5ob9.png" alt="Linkein logo"/>
       </a>
       <a href="https://github.com/DariaKrestina" target="_blank" rel="noreferrer">
-          <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png" alt="Github logo"
-            width="10%" height="auto"/>
+          <img src="https://i.imgur.com/iavAlwB.png" alt="Github logo"/>
       </a>
     </footer>
   )
