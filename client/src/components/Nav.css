@@ -6,6 +6,7 @@ nav {
   border-bottom: #14253d solid 1px;
   width: 100%;
   position: fixed;
+  top: 0;
   background: white;
 }
 
