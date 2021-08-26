@@ -2,7 +2,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Place from "./components/Place";
-import Form from "./components/Form";
+import Forms from "./components/Forms";
 import Footer from "./components/Footer";
 import { Route } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -32,10 +32,10 @@ function App() {
         <Place places={places} />
       </Route>
       <Route path="/new">
-        <Form setToggleFetch={setToggleFetch} />
+        <Forms setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/edit/:id">
-        <Form places={places} setToggleFetch={setToggleFetch} />
+        <Forms places={places} setToggleFetch={setToggleFetch} />
       </Route>
       <Footer />
     </>
