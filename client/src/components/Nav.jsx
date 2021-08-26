@@ -5,7 +5,7 @@ function Nav() {
 
   return (
       <nav>
-        <Link to="/"><h1 id="top">Places to go</h1></Link>
+        <Link to="/"><h1>Places to go</h1></Link>
         <div className="nav-images">
         <Link to="/"><img src="https://i.imgur.com/yypAWmK.png" alt="Home" width="48px"/></Link>
         <Link to="/new"><img src="https://i.imgur.com/uKjzGW7.png" alt="Add" width="48px"/></Link>

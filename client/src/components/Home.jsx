@@ -4,7 +4,7 @@ import "./Home.css"
 function Home(props) {
   const { places } = props
   return (
-    <main>
+    <main id="top">
       {places.map((place) => (
         <>
           <Link to={`/places/${place.id}`}>

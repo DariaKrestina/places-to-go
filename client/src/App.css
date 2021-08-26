@@ -5,6 +5,7 @@
 
 body {
   color: #14253d;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -19,4 +20,5 @@ a:visited {
 
 a:active {
   color: #457b9d;
+  text-decoration: none; 
 }

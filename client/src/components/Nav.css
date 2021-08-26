@@ -1,7 +1,3 @@
-h1 {
-  padding: 2px 0 0 10px;
-}
-
 nav {
   border-bottom: #14253d solid 1px;
   width: 100%;
@@ -10,21 +6,22 @@ nav {
   background: white;
 }
 
-nav img {
-  /* Info on manipulating color of png img here: https://codepen.io/taryaoui/pen/EKkcu */
-  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
-  filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
-  padding: 0 15px 5px 0;
-}
-
 nav h1 {
   text-align: center;
   font-family: "Bad Script", cursive;
   font-size: 20px;
   font-weight: 800;
-  padding: 10px 20px 0 10px;
+  padding: 10px 10px 0 10px;
+}
+
+nav img {
+  padding-left: 10px;
 }
 
 .nav-images {
+  /* Info on manipulating color of png img here: https://codepen.io/taryaoui/pen/EKkcu */
+  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+  filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+  padding: 0 15px 5px 0;
   text-align: center;
 }

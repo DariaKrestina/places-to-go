@@ -1,8 +1,28 @@
 footer {
   border-top: #14253d solid 1px;
+  width: 100%;
+  background: white;
+  text-align: center;
 }
 
 footer a img {
+  padding-left: 10px;
+}
+
+.footer-images {
+  padding: 0 15px 5px 0;
   -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
   filter: opacity(0.5) drop-shadow(0 0 0 #14253d);
+  text-align: center;
+}
+
+.linkedin-image {
+  padding-left: 15px;
+}
+
+.footer-txt {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 20px 10px 5px;
 }
