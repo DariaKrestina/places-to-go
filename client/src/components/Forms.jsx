@@ -4,7 +4,7 @@ import { baseURL, config } from "../services"
 import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
 import "./Forms.css"
-import { Button, Form, FloatingLabel } from 'react-bootstrap'
+import { Button, Form, FloatingLabel } from "react-bootstrap"
 
 function Forms(props) {
   const [image, setImage] = useState("")
@@ -140,95 +140,10 @@ function Forms(props) {
       onChange={(e) => setCurrency(e.target.value)} />
       </FloatingLabel>
       <div className="d-grid gap-2">
-        <Button variant="info" type="submit" size="lg">{buttonName}</Button>
+        <Button variant="info" type="submit">{buttonName}</Button>
       </div>
       </Form>
       </div>
-    // <>
-    // <form onSubmit={handleSubmit}>
-     //<label htmlFor="image">Image </label>
-    //<br />
-    // <input
-    //     value={image}
-    //     onChange={(e) => setImage(e.target.value)}
-    //     id="image"
-    //     type="url"
-    //     autoComplete="off"
-    //     placeholder="Image url e.g. https://i.imgur.com/example.jpg"
-    //     required
-    //   />
-    //   <br />
-    //   <label htmlFor="name">Name </label>
-    //   <br />
-    //   <input
-    //     value={name}
-    //     onChange={(e) => setName(e.target.value)}
-    //     type="text"
-    //     autoComplete="off"
-    //     id="name"
-    //     placeholder="Name"
-    //     required
-    //   />
-    //   <br /> 
-    //   <label htmlFor="country">Country </label>
-    //   <br />
-    //   <input
-    //     value={country}
-    //     onChange={(e) => setCountry(e.target.value)}
-    //     type="text"
-    //     autoComplete="off"
-    //     id="country"
-    //     placeholder="Country"
-    //     required
-    //   />
-    //   <br />
-    //   <label htmlFor="thingsToDo">Things to do: </label>
-    //   <br />
-    //   <textarea
-    //     value={thingsToDo}
-    //     onChange={(e) => setThingsToDo(e.target.value)}
-    //     id="thingsToDo"
-    //     placeholder="Things to do"
-    //     required
-    //   />
-    //   <br />
-    //   <label htmlFor="description">Description: </label>
-    //   <br />
-    //   <textarea
-    //     value={description}
-    //     onChange={(e) => setDescription(e.target.value)}
-    //     id="description"
-    //     placeholder="Description"
-    //     required
-    //   />
-    //   <br />
-    //   <label htmlFor="languages">Languages </label>
-    //   <br />
-    //   <input
-    //     value={languages}
-    //     onChange={(e) => setLanguages(e.target.value)}
-    //     type="text"
-    //     autoComplete="off"
-    //     id="languages"
-    //     placeholder="Languages"
-    //     required
-    //   />
-    //   <br />
-    //   <label htmlFor="currency">Currency </label>
-    //   <br />
-    //   <input
-    //     value={currency}
-    //     onChange={(e) => setCurrency(e.target.value)}
-    //     type="text"
-    //     autoComplete="off"
-    //     id="currency"
-    //     placeholder="Currency"
-    //     required
-    //   />
-    //   <br />
-    //     <button type="submit">{buttonName}</button>
-    //   </form>
-    //   </>
   )
 }
 

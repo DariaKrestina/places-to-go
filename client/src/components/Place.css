@@ -3,6 +3,25 @@ article {
   margin: 3%;
 }
 
+article h1 {
+  font-weight: 700;
+}
+
+article h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 article img {
-  width: 180px;
+  width: 160px;
+  padding-top: 8px;
+}
+
+.country-name h1 {
+  margin-bottom: 0;
+}
+
+.country-name h4 {
+  font-style: italic;
+  padding-bottom: 15px;
 }
