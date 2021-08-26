@@ -26,3 +26,8 @@ nav img {
   padding: 0 15px 5px 0;
   text-align: center;
 }
+
+nav img:active {
+  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #7facc7);
+  filter: opacity(0.5) drop-shadow(0 0 0 #7facc7);
+}

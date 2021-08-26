@@ -10,46 +10,33 @@ function Place(props) {
   return !place ? (<h1>Loading...</h1>) : (
     <article>
       <Container>
-  <Row>
-    <Col><img alt="tourist attraction pic" src={place.fields.image} width="100%"/></Col>
-    <Col>
-      <div className="country-name">
-        <h1>{place.fields.name}</h1>
-        <h4>{place.fields.country}</h4>
-      </div>
-      <h3>Languages</h3>
-      <p>{place.fields.languages}</p>
-      <h3>Currency</h3>
-      <p>{place.fields.currency}</p>
-    </Col>
-  </Row>
-  <Row>
-     <Col>
-      <h3>Description</h3>
-      <p>{place.fields.description}</p>
-      <h3>Things to do</h3>
-      <p>{place.fields.thingsToDo}</p>
-      <Link to={`/edit/${place.id}`}>
-        <div className="d-grid gap-2">
-          <Button variant="info">Edit</Button>
-        </div>
-      </Link> 
-    </Col>
-  </Row>
-</Container>
-      {/* <img alt="tourist attraction pic" src={place.fields.image} width="100%"/>
-      <h1>{place.fields.name}, {place.fields.country}</h1>
-      <h3>Things to do</h3>
-      <p>{place.fields.thingsToDo}</p>
-      <h3>Description</h3>
-      <p>{place.fields.description}</p>
-      <h3>Languages</h3>
-      <p>{place.fields.languages}</p>
-      <h3>Currency</h3>
-      <p>{place.fields.currency}</p>
-      <Link to={`/edit/${place.id}`}>
-        <button>Edit</button>
-      </Link> */}
+        <Row>
+          <Col><img alt="tourist attraction pic" src={place.fields.image} width="100%"/></Col>
+          <Col>
+            <div className="country-name">
+              <h1>{place.fields.name}</h1>
+              <h4>{place.fields.country}</h4>
+            </div>
+            <h3>Languages</h3>
+            <p>{place.fields.languages}</p>
+            <h3>Currency</h3>
+            <p>{place.fields.currency}</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <h3>Description</h3>
+            <p>{place.fields.description}</p>
+            <h3>Things to do</h3>
+            <p>{place.fields.thingsToDo}</p>
+            <Link to={`/edit/${place.id}`}>
+              <div className="d-grid gap-2">
+                <Button variant="info">Edit</Button>
+              </div>
+            </Link> 
+          </Col>
+        </Row>
+      </Container>
     </article>
   )
 }

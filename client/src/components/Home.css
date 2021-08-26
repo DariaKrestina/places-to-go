@@ -1,3 +1,7 @@
+main {
+  padding-top: 85px;
+}
+
 .place {
   position: relative;
   margin: 3%;
@@ -11,7 +15,7 @@
   left: 40px;
   color: white;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   width: 80%;
 }
 
@@ -21,6 +25,35 @@
   object-fit: cover;
 }
 
-main {
-  padding-top: 85px;
+.txt-place:active {
+  color: #457b9d;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .place {
+    position: static;
+    margin: 5%;
+    border-radius: 5%;
+    text-align: right;
+  }
+
+  .txt-place {
+    position: static;
+    font-size: 30px;
+    font-weight: 500;
+    color: #14253d;
+    margin-left: 5vw;
+  }
+
+  .img-place {
+    border-radius: 10px;
+    width: 30vw;
+    height: 40vw;
+  }
 }

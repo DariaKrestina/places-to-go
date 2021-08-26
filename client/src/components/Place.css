@@ -14,11 +14,12 @@ article h3 {
 
 article img {
   width: 160px;
-  padding-top: 8px;
+  margin-top: 8px;
+  border-radius: 5px;
 }
 
 .country-name h1 {
-  margin-bottom: 0;
+  margin-bottom: 1px;
 }
 
 .country-name h4 {
