@@ -138,8 +138,10 @@ function Forms(props) {
       placeholder="Currency"
       value={currency}
       onChange={(e) => setCurrency(e.target.value)} />
-      </FloatingLabel>
-      <Button variant="primary" type="submit">{buttonName}</Button>
+        </FloatingLabel>
+      <div className="mb-2">
+          <Button variant="primary" type="submit" size="lg">{buttonName}</Button>
+      </div>
       </Form>
       </div>
     // <>
