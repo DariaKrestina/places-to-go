@@ -3,10 +3,6 @@ article {
   margin: 3%;
 }
 
-article h1 {
-  font-weight: 700;
-}
-
 article h3 {
   font-weight: 600;
   font-size: 20px;
@@ -20,9 +16,82 @@ article img {
 
 .country-name h1 {
   margin-bottom: 1px;
+  font-weight: 700;
 }
 
 .country-name h4 {
   font-style: italic;
   padding-bottom: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  article img {
+    width: 450px;
+    border-radius: 8px;
+  }
+
+  article h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .country-name h1 {
+    font-size: 65px;
+  }
+
+  .country-name h4 {
+    padding-bottom: 25px;
+    font-size: 40px;
+  }
+
+  .place-info {
+    margin-top: 75px;
+  }
+
+  .place-description {
+    margin-top: 75px;
+  }
+
+  .button {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+  article img {
+    width: 300px;
+    border-radius: 8px;
+  }
+
+  article h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .country-name h1 {
+    font-size: 50px;
+  }
+
+  .country-name h4 {
+    padding-bottom: 25px;
+    font-size: 30px;
+  }
+
+  .place-info {
+    margin-top: 75px;
+  }
+
+  .place-description {
+    margin-top: 50px;
+  }
+
+  .button {
+    margin-top: 40px;
+  }
 }
