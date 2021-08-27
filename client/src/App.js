@@ -16,7 +16,6 @@ function App() {
   useEffect(() => {
     const fetchPlaces = async () => {
       const resp = await axios.get(baseURL, config);
-      console.log(resp.data.records);
       setPlaces(resp.data.records);
     };
     fetchPlaces();
