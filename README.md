@@ -2,7 +2,7 @@
 
 ## Project Name
 
-### [Places to go](places-to-go.netlify.app)
+### [Places to go](https://places-to-go.netlify.app/)
 
 ## Project Description
 
