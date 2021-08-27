@@ -2,7 +2,7 @@
 
 ## Project Name
 
-### Places to go
+### [Places to go](https://places-to-go.netlify.app/)
 
 ## Project Description
 
@@ -10,6 +10,8 @@ Places to go is a React app where user is able to view , add and edit informatio
 
 
 ## Wireframes
+
+![Index(home) page](https://i.imgur.com/od04C9m.png)
 
 [Index(home) page wireframe](https://whimsical.com/places-to-go-wireframes-index-page-Nyq2t9Um9q34gkGe7a1UFB)
 
@@ -22,7 +24,7 @@ Places to go is a React app where user is able to view , add and edit informatio
 
 ## Component Hierarchy
 
-[Component Hierarchy](https://whimsical.com/places-to-go-component-hierarchy-6Z22ibMtruURssGpLEqWZd)
+![Component Hierarchy](https://i.imgur.com/Dooshmm.png)
 
 
 ## API and Data Sample
@@ -40,7 +42,7 @@ Below is data sample from Airtable Places API.
                 "currency": "USD",
                 "languages": "English(US)",
                 "description": "Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Page, Arizona. It includes two separate, scenic slot canyon section...",
-                "thingsToDo": "1. Horseshoe Bend\n2. Navajo Village Heritage Center\n3. Glen Canyon Dam Overlook\n4. Waterholes Canyon\n5. Lower Antelope Canyon\n6. Glen Canyon National ...",
+                "thingsToDo": "Horseshoe Bend, Navajo Village Heritage Center, Glen Canyon Dam Overlook, Waterholes Canyon, Lower Antelope Canyon, Glen Canyon National ...",
                 "image": "https://i.imgur.com/Ym34zXM.jpg"
             },
             "createdTime": "2021-08-19T17:35:44.000Z"
@@ -83,34 +85,34 @@ Below is data sample from Airtable Places API.
 
 | Day          | Deliverable                                                               | Status       |
 | ------------ | ------------------------------------------------------------------------- | ------------ |
-| August 19-20 | Wireframes / Component Hierarchy / Timeframes / Project Approval          |  Incomplete  |
-| August 23    | Pseudocode / Application Structure / Actual Code / MVP                    |  Incomplete  |
-| August 24    | Code / CSS Styling / MVP                                                  |  Incomplete  |
-| August 25    | Initial Clickable Model / PostMVP                                         |  Incomplete  |
-| August 26    | CSS Styling / PostMVP                                                     |  Incomplete  |
-| August 27    | Presentations                                                             |  Incomplete  |
+| August 19-20 | Wireframes / Component Hierarchy / Timeframes / Project Approval          |   Complete   |
+| August 23    | Pseudocode / Application Structure / Actual Code / MVP                    |   Complete   |
+| August 24    | Code / CSS Styling / MVP                                                  |   Complete   |
+| August 25    | Initial Clickable Model / PostMVP                                         |   Complete   |
+| August 26    | CSS Styling / PostMVP                                                     |   Complete   |
+| August 27    | Presentations                                                             |   Complete   |
 
 
 ## Timeframes
 
 | Component                                                | Priority | Estimated Time | Time Invested | Actual Time |
 | -------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Wireframes / Component Hierarchy / Timeframes            |    H     |      4hrs      |               |             |
-| Create Airtable Places API with tourist attractions data |    H     |      4hrs      |               |             |
-| Pseudocode                                               |    H     |    0.5hrs      |               |             |
-| Create React App / Create separate components            |    H     |    3.5hrs      |               |             |
-| Working with API                                         |    H     |      2hrs      |               |             |
-| Clickable Edit / Add buttons                             |    H     |      2hrs      |               |             |
-| POST request to add new tourist attraction               |    H     |      1hrs      |               |             |
-| PUT request to update existing tourist attraction        |    H     |      1hrs      |               |             |
-| Airtable API fetchData function                          |    H     |      2hrs      |               |             |
-| CSS styling mobile-first                                 |    H     |      4hrs      |               |             |
-| CSS Grid / Bootstrap styling                             |    H     |      3hrs      |               |             |
-| Media Query for Desktop                                  |    H     |      4hrs      |               |             |
-| Media Query for Tablet                                   |    L     |      3hrs      |               |             |
-| MVP check/fixes/tweaks                                   |    H     |      3hrs      |               |             |
-| PostMVP checks/fixes/tweaks                              |    H     |      2hrs      |               |             |
-| Total                                                    |    H     |     39hrs      |               |             |
+| Wireframes / Component Hierarchy / Timeframes            |    H     |      4hrs      |     3hrs      |     3hrs    |
+| Create Airtable Places API with tourist attractions data |    H     |      3hrs      |     4hrs      |     4hrs    |
+| Pseudocode                                               |    H     |    0.5hrs      |   0.5hrs      |   0.5hrs    |
+| Create React App / Create separate components            |    H     |    3.5hrs      |     3hrs      |     3hrs    |
+| Working with API                                         |    H     |      2hrs      |     3hrs      |     3hrs    |
+| Clickable Edit / Add buttons                             |    H     |      2hrs      |     2hrs      |     2hrs    |
+| POST request to add new tourist attraction               |    H     |      1hrs      |     1hrs      |     1hrs    |
+| PUT request to update existing tourist attraction        |    H     |      1hrs      |     2hrs      |     2hrs    |
+| Airtable API fetchData function                          |    H     |      2hrs      |     2hrs      |     2hrs    |
+| CSS styling mobile-first                                 |    H     |      4hrs      |     4hrs      |     4hrs    |
+| CSS Grid / Bootstrap styling                             |    H     |      3hrs      |     4hrs      |     4hrs    |
+| Media Query for Desktop                                  |    H     |      3hrs      |     4hrs      |     4hrs    |
+| Media Query for Tablet                                   |    L     |      3hrs      |     2hrs      |     2hrs    |
+| MVP check/fixes/tweaks                                   |    H     |      3hrs      |     4hrs      |     4hrs    |
+| PostMVP checks/fixes/tweaks                              |    H     |      2hrs      |     3hrs      |     3hrs    |
+| Total                                                    |    H     |     38hrs      |   42.5hrs     |  42.5hrs    |
 
 
 ## SWOT Analysis
