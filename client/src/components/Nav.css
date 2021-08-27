@@ -31,3 +31,36 @@ nav img:active {
   -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #7facc7);
   filter: opacity(0.5) drop-shadow(0 0 0 #7facc7);
 }
+
+@media screen and (min-width: 1024px) {
+  nav {
+    background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-bottom: none;
+  }
+
+  nav h1,
+  nav h2 {
+    display: inline-block;
+  }
+
+  nav h2 {
+    padding: 10px 35px 5px 35px;
+    margin: 0;
+    font-size: 30px;
+  }
+
+  nav h1 {
+    font-size: 45px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    padding-left: 180px;
+    margin: 0;
+  }
+
+  .nav-images {
+    text-align: right;
+  }
+}

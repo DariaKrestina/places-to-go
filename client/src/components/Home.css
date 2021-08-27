@@ -1,5 +1,5 @@
 main {
-  padding-top: 85px;
+  padding-top: 92px;
 }
 
 .place {
@@ -32,6 +32,7 @@ main {
 
 @media screen and (min-width: 1024px) {
   main {
+    padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
