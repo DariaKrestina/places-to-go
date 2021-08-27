@@ -11,6 +11,8 @@ Places to go is a React app where user is able to view , add and edit informatio
 
 ## Wireframes
 
+![Index(home) page](https://i.imgur.com/od04C9m.png)
+
 [Index(home) page wireframe](https://whimsical.com/places-to-go-wireframes-index-page-Nyq2t9Um9q34gkGe7a1UFB)
 
 [Show page wireframe](https://whimsical.com/places-to-go-wireframes-show-page-6UdyDQj11g4XbEhb6hZpQZ)
@@ -22,7 +24,7 @@ Places to go is a React app where user is able to view , add and edit informatio
 
 ## Component Hierarchy
 
-[Component Hierarchy](https://whimsical.com/places-to-go-component-hierarchy-6Z22ibMtruURssGpLEqWZd)
+![Component Hierarchy](https://i.imgur.com/Dooshmm.png)
 
 
 ## API and Data Sample
