@@ -57,3 +57,9 @@ main {
     height: 40vw;
   }
 }
+
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+  .txt-place {
+    font-size: 35px;
+  }
+}
