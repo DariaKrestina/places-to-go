@@ -41,15 +41,14 @@ nav img:active {
     border-bottom: none;
   }
 
+  nav img {
+    padding-left: 10px;
+    width: 65px;
+  }
+
   nav h1,
   nav h2 {
     display: inline-block;
-  }
-
-  nav h2 {
-    padding: 10px 35px 5px 35px;
-    margin: 0;
-    font-size: 30px;
   }
 
   nav h1 {
