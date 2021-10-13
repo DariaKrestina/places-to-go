@@ -43,7 +43,7 @@ nav img:active {
 
   nav img {
     padding-left: 10px;
-    width: 65px;
+    width: 50px;
   }
 
   nav h1,
@@ -52,11 +52,12 @@ nav img:active {
   }
 
   nav h1 {
-    font-size: 45px;
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 400;
     padding-left: 180px;
     margin: 0;
+    letter-spacing: -3px;
+    font-style: italic;
   }
 
   .nav-images {
